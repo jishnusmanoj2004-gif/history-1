@@ -95,15 +95,13 @@ console.log("A server is a computer or software system that provides data, servi
 ##  What is a database? Why is it used?
 ANSWER:
 
-"A database is an organized collection of data stored electronically so it can be easily accessed, managed, and updated.database is used for: Stores data safely,Update information"
+A database is an organized collection of data stored electronically so it can be easily accessed, managed, and updated.database is used for: Stores data safely,Update information
 
 ## What is the difference between a server and a database?
 ANSWER:
 
-```js
 Server receives your request, processes it, and sends the webpage.Database stores product details, user accounts, and order history.
 
-```
 ## Explain the client-server architecture.
 ANSWER:
 Client-server architecture is a system where one computer (client) requests services or data, and another computer (server) provides them.
