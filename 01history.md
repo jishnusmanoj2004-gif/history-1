@@ -4,18 +4,14 @@ ANSWER:
 ```js
 console.log("jishnu");
 
-
-```
 ## Who is the founder of JavaScript and when was it founded?
 ANSWER:
 Brenden Eich in 1995.
 
-```
 ##  What was the first browser, who was the founder, and when was it released?
 ANSWER:
 Tim berner lee is the founder of first browser.developed at CERN.Invented in 1990
 
-```
 ## What is ECMAScript?
 ANSWER:
 ECMAScript is the standardized scripting language specification that JavaScript
