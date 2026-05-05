@@ -93,3 +93,29 @@ let isstudent=true; -->
 console.log("jishnu");
 
 ```
+
+##  Declare variables of all primitive data types and print their types?
+ANSWER:
+
+```JS
+// PRIMITIVE DATA TYPE
+
+let str = "Hello";          
+let num = 42;               
+let bigIntNum = 1234567890123456789012345678901234567890n; 
+let isTrue = true;     
+let undef;               
+let sym = Symbol("id");    
+let empty = null;           
+
+// PRINTING TYPE
+
+console.log("string:", typeof str);
+console.log("number:", typeof num);
+console.log("bigint:", typeof bigIntNum);
+console.log("boolean:", typeof isTrue);
+console.log("undefined:", typeof undef);
+console.log("symbol:", typeof sym);
+console.log("null:", typeof empty);
+
+```
