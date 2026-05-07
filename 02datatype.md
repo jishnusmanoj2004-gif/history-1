@@ -136,3 +136,43 @@ let a=("abc");
 console.log(typeof(num))
 
 ```
+
+## 21. What will be the output of:
+## I console.log(typeof 42);
+## II console.log(typeof "Hello");
+## III console.log(typeof true);
+## IV console.log(typeof undefined);
+## V console.log(typeof null);
+ANSWER:
+I: number
+II: string
+III: boolean
+IV :undefined
+V :object
+
+## 22. Predict the output:
+## I console.log(5 + "5");           
+## II console.log("5" - 2);         
+## III console.log(true + 1);        
+## IV console.log(false + "hello"); 
+ANSWER:
+I :55
+II :3
+III :2
+IV :falsehello
+
+## 23. Create an object and an array, then check their data types using `typeof'?
+ANSWER:
+```js
+//creating an object
+let person={
+    name:"jishnu",
+    age:21
+};
+//creating an array
+let colors=["red","blue"];
+
+console.log(typeof person);
+console.log(typeof colors);
+
+```
