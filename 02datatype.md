@@ -88,11 +88,9 @@ ANSWER:
 <!-- let name="jishnu";
 let age=25;
 let isstudent=true; -->
-```js
+let a-20
+console.log(typeof(a));
 
-console.log("jishnu");
-
-```
 
 ##  Declare variables of all primitive data types and print their types?
 ANSWER:
@@ -117,5 +115,24 @@ console.log("boolean:", typeof isTrue);
 console.log("undefined:", typeof undef);
 console.log("symbol:", typeof sym);
 console.log("null:", typeof empty);
+
+```
+
+##  Write a program to convert a string to a number?
+ANSWER:
+```JS
+
+let a="77"
+a=Number(a)
+console.log(typeof(a));
+
+```
+
+## Write a program to convert a number to a string?
+ANSWER:
+```js
+let num=(42);
+let a=("abc");
+console.log(typeof(num))
 
 ```
