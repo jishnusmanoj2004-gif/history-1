@@ -171,8 +171,22 @@ let person={
 };
 //creating an array
 let colors=["red","blue"];
-
 console.log(typeof person);
 console.log(typeof colors);
 
 ```
+
+## Section D: Advanced Thinking
+
+## Can a variable change its data type? Explain with example?
+ANSWER:
+Yes. In JavaScript, a variable can change its data type because JavaScript is a dynamically typed language.
+```js
+let value = 10;  
+console.log(typeof value);
+
+```
+
+## How does JavaScript handle large integers?
+ANSWER:
+JavaScript handles large integers using the BigInt data type
