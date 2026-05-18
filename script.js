@@ -237,3 +237,50 @@ if (temperature >= 98 && temperature <= 98.9) {
 } else {
     console.log("Not normal temperature");
 }*/
+/*
+let totalClasses = Number(prompt("Enter total number of classes:"));
+let attendedClasses = Number(prompt("Enter number of classes attended:"));
+let attendancePercentage = (attendedClasses / totalClasses) * 100;
+if (attendancePercentage >= 75) {
+    alert("You can write the exam.");
+} else {
+    alert("You cannot write the exam.");
+}
+console.log("Attendance Percentage:", attendancePercentage + "%");
+*/
+/*
+let val = 12;
+if (val < 5) {
+    console.log("Tiny");
+} else if (val < 10) {
+    console.log("Small");
+} else if (val < 15) {
+    console.log("Medium");
+} else if (val < 20) {
+    console.log("Large");
+} else {
+    console.log("Huge");
+}*/
+/*
+let role = "admin";
+switch (role) {
+    case "admin":
+        console.log("Admin gets full access");
+        break;
+    case "manager":
+        console.log("Manager gets limited access");
+        break;
+    case "user":
+        console.log("User gets normal access");
+        break;
+    default:
+        console.log("Invalid role");
+}*/
+/*
+let balance = 5000;
+let withdrawalAmount = 1200;
+if (balance >= withdrawalAmount && withdrawalAmount % 100 === 0) {
+    console.log("Withdrawal successful");
+} else {
+    console.log("Invalid withdrawal");
+}*/

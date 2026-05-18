@@ -222,4 +222,105 @@ if (temperature >= 98 && temperature <= 98.9) {
 }
 ```
 ## Q17. You need to have 75% attendance to write the exam. Take the total number of classes and the number of attendances from the student and tell him if he can write the exam?
+ANSWER:
+```js
+let totalClasses = Number(prompt("Enter total number of classes:"));
+let attendedClasses = Number(prompt("Enter number of classes attended:"));
+let attendancePercentage = (attendedClasses / totalClasses) * 100;
+if (attendancePercentage >= 75) {
+    alert("You can write the exam.");
+} else {
+    alert("You cannot write the exam.");
+}
+console.log("Attendance Percentage:", attendancePercentage + "%");
+```
+## 18. If(5>4){
+## Console.log(“First if”)
+## }
+## If(10 >= 6){
+## Console.log(“Second if”)
+## }
+## What will the output of the above code be?
+ANSWER:
+First if
+Second if
+##  19. If(true){
+## Console.log(“1”)
+## }
+## If(false){
+## Console.log(“2”)
+## }
+## If(true){
+## Console.log(“3”)
+##    }
+## What will the output of the above code be?
+ANSWER:
+1,3
+##  21. Write a chained if / else-if statement to fill in the following conditions
+## val  < 5  =>  Tiny
+## val  < 10  =>  Small
+## val  < 15  =>  Medium
+## val  < 20  => Large
+## val  >= 20  => Huge 
+ANSWER:
+```js
+let val = 12;
+if (val < 5) {
+    console.log("Tiny");
+} else if (val < 10) {
+    console.log("Small");
+} else if (val < 15) {
+    console.log("Medium");
+} else if (val < 20) {
+    console.log("Large");
+} else {
+    console.log("Huge");
+}
+```
+## 22. Use the switch case and create an application with the following roles.
+## admin => gets full access
+ANSWER:
+```js
+let role = "admin";
+switch (role) {
+    case "admin":
+        console.log("Admin gets full access");
+        break;
+    case "manager":
+        console.log("Manager gets limited access");
+        break;
+    case "user":
+        console.log("User gets normal access");
+        break;
+    default:
+        console.log("Invalid role");
+}
+```
+## 23. Guess the output
+## let a = 5, b = 10;
+## if (a > b && b > 0) {
+##     console.log("X");
+## } else {
+##     console.log("Y");
+## }
+ANSWER:
+Y
+## 24. Guess the output
+## let day = 3;
+## switch(day) {
+##     case 1: console.log("Mon"); break;
+##     case 2: console.log("Tue"); break;
+##     case 3: console.log("Wed"); break;
+##     default: console.log("Invalid");
+## }
+ANSWER:Wed
+## 25. Create a simple ATM withdrawal checker Conditions: Balance should be greater than withdrawal amount AND amount should be a multiple of 100
+ANSWER:
+let balance = 5000;
+let withdrawalAmount = 1200;
 
+if (balance >= withdrawalAmount && withdrawalAmount % 100 === 0) {
+    console.log("Withdrawal successful");
+} else {
+    console.log("Invalid withdrawal");
+}
