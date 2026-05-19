@@ -133,77 +133,107 @@ true
 ## Part C: Basic Programs
 ## 1. Convert 'javascript' into uppercase?
 ANSWER:
+```js
 let str = "javascript";
 console.log(str.toUpperCase());
+```
 JAVASCRIPT
 ## 2. Convert 'HELLO' into lowercase?
 ANSWER:
+```js
 let word = "HELLO";
 console.log(word.toLowerCase());
+```
 hello
 ## 3. Find the length of 'Frontend Development'?
 ANSWER:
+```js
 let str = "Frontend Development";
 console.log(str.length);
+```
 20
 ## 4. Print the first character of a string?
 ANSWER:
+```js
 let str = "kerala";
 console.log(str.charAt(0));
+```
 k
 ## 5. Print the last character of a string?
 ANSWER:
+```js
 let letter = "asustuff";
 console.log(letter.charAt(letter.length - 1));
+```
 f
 ## 6. Check whether 'Script' exists in 'JavaScript'?
 ANSWER:
+```js
 let str = "javascript";
 console.log(str.includes("script"));
+```
 true
 ## 7. Replace 'good' with 'awesome' in 'This is a good day'?
 ANSWER:
+```js
 let letter = "this was awseom";
-console.log(letter.replace("awseom" , "nice"));
+console.log(letter.replace("awseom" , "nice"));+
+```
 this was nice
 ## 8. Remove spaces from the beginning and end of a string?
 ANSWER:
+```js
 let str = "    javascript    "
 console.log(str.trim());
+```
 javascript
 ## 9. Extract 'Java' from 'JavaScript'?
 ANSWER:
+```js
 let word = "javascript";
 console.log(word.slice(0,4));
+```
 java
 ## 10. Convert 'HTML,CSS,JavaScript' into an array using split()?
 ANSWER:
+```js
 let str = "HTML,CSS,javascript";
 console.log(str.split(","));
+```
 [ 'HTML', 'CSS', 'JavaScript' ]
 ## 11. Print 'Hi' 5 times using repeat()?
 ANSWER:
+```js
 let str = "Hi ";
 console.log(str.repeat(5));
+```
 Hi Hi Hi Hi Hi
 ## 12. Check whether a string starts with 'Mr'?
 ANSWER:
+```js
 let name = "Mr john";
 console.log(name.startsWith("Mr"));
+```
 true
 ## 13. Check whether a filename ends with '.pdf'?
 ANSWER:
+```js
 let fileName = "document.pdf";
 console.log(fileName.endsWith(".pdf"));
+```
 true
 ## 14. Capitalize the first letter of 'hello world'?
 ANSWER:
+```js
 let str = "hello world";
 let result = str.charAt(0).toUpperCase() + str.slice(1);
 console.log(result);
+```
 Hello world
 ## 15. Find the position of 'a' in 'JavaScript'?
 ANSWER:
+```js
 let str = "JavaScript";
 console.log(str.indexOf("a"));
+```
 1
