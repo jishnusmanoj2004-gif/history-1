@@ -284,3 +284,53 @@ if (balance >= withdrawalAmount && withdrawalAmount % 100 === 0) {
 } else {
     console.log("Invalid withdrawal");
 }*/
+/*
+let name = "John";
+let age = 20;
+let message = `My name is ${name} and I am ${age} years old.`;
+console.log(message);*/
+/*
+let str = "javascript";
+console.log(str.toUpperCase());*/
+/*
+let word = "HELLO";
+console.log(word.toLowerCase());*/
+/*
+let str = "Frontend Development";
+console.log(str.length);*/
+/*
+let str = "kerala";
+console.log(str.charAt(0));*/
+/*
+let letter = "asustuff";
+console.log(letter.charAt(letter.length - 1));*/
+/*
+let str = "javascript";
+console.log(str.includes("script"));*/
+/*
+let letter = "this was awseom";
+console.log(letter.replace("awseom" , "nice"));*/
+/*
+let str = "    javascript    "
+console.log(str.trim());*/
+/*
+let word = "javascript";
+console.log(word.slice(0,4));*/
+/*
+let str = "HTML,CSS,javascript";
+console.log(str.split(","));*/
+/*
+let str = "Hi ";
+console.log(str.repeat(5));*/
+/*
+let name = "Mr john";
+console.log(name.startsWith("Mr"));*/
+/*
+let fileName = "document.pdf";
+console.log(fileName.endsWith(".pdf"));*/
+/*
+let str = "hello world";
+let result = str.charAt(0).toUpperCase() + str.slice(1);
+console.log(result);*/
+let str = "JavaScript";
+console.log(str.indexOf("a"));
